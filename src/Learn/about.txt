@@ -1,0 +1,46 @@
+⦿ npm i react-router-dom -S = used to get react router dependency in package.json
+
+⦿ To get a new REACT APP ==> npx create-react-app my-app
+
+⦿ 👐ctrl alt r to open snippets and search for rafce 
+      and click it to get that default component code👐
+
+⦿ 👐ctrl + D to select all same texts of selected texts👐
+
+⦿ <Router>
+      <Routes>
+        <Route path="/" element={<App />} />  =renders the App component when you visit the root URL (/).
+      </Routes>
+   </Router> 
+
+⦿ Routing in App.js for pages--
+   <Routes>  {/* Routes used for switching , setting up routing for the pages*/}
+        <Route path="/" element={<Home />} />   {/* The path prop defines the URL pattern that this route matches."/" here represents the root path of your application (e.g., http://localhost:3000/). -// this means when the user visits the root URL, the component associated with this route will be displayed. In this case, the component will be <Home />., Both http://localhost:3000/ and http://localhost:3000 will render the Home component.*/}
+        <Route path="/post" element={<NewPost />} />
+        <Route path="/post/:id" element={<Postpage />} />  {/* : before id tells React Router that this part of the URL is variable  and If the user visits a URL such as /post/123, React Router will:
+                                                               Match the path="/post/:id" route because the URL matches the /post/ part, and :id will capture 123 as the dynamic value.
+                                                               Render the Postpage component */}
+        <Route path="/about" element={<About />} />
+        <Route path="*" element={<Missing />} /> {/* Handle all other routes */}
+   </Routes>
+
+
+⦿ import { useNavigate } from "react-router-dom";
+   const navigate = useNavigate();
+
+⦿ useNavigate returns a function that allows you to navigate to a different route within your app
+⦿ It can be used to:
+       Redirect the user after a specific action (e.g., form submission or deletion).
+       Dynamically navigate to different routes based on user interaction or logic.
+
+
+⦿ Add axios to blog application and it will help us request data from a development API that we will set up with json server
+⦿ axios makes requesting data easier than using fetch api
+⦿ TO add axios=npm i axios -S and run npx json-server -p 3500 -w data/db.json to get an endpoint
+
+
+⦿ for fetching==> option1.hardcoded array
+                         2.fetch function
+                         3.Axios
+
+⦿ Hooks-npm i react-icons

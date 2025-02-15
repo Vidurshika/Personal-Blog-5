@@ -1,0 +1,14 @@
+➽ npm i easy-peasy  = to get the easy peasy redux dependency
+
+➽ import { StoreProvider } from "easy-peasy"; 
+   import store from "./store";    these 2 lines are added to Index.js
+
+➽ as easy-peasy is used ; datacontext is not used anymore
+   but api,axioFetch are still there
+   Also new Store.js is there - having all states and actions
+
+➽ execution = Index-> store initialization -> App render and get posts from mock API by useAxiofetch-> components render
+
+➽ navigate()=React Router hook, and hooks cannot be used outside of components.therefore it can not be used in a func in STORE.
+
+➽ store={store} in index , means it tells to consider the states and actions in store.js as STORE

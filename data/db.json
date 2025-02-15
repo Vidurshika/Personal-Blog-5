@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "my 1st post",
+      "datetime": "Jan 1, 2025 10:49:19 PM",
+      "body": "I do not know what the hell I am doing right now"
+    },
+    {
+      "id": "2",
+      "title": "my 2nd post",
+      "datetime": "Jan 2, 2025 12:49:19 AM",
+      "body": "Summer is one of the four seasons. It is the hottest season of the year. In some places, summer is the wettest season (with the most rain), and in other places, it is a dry season. Four seasons are found in areas which are not too hot or too cold. Summer happens to the north and south sides of the Earth at opposite times of the year. In the north part of the world, summer takes place between the months of June and September, and in the south part of the world, it takes place between December and March."
+    },
+    {
+      "id": "3",
+      "title": "my 3rd post",
+      "datetime": "Jan 3, 2025 5:49:19 AM",
+      "body": "Many times we need to take a good long look at where we are, and consciously make the decision to feel better. The path we take can be varied. Moderate exercise, healthy eating, looking for and seeing the good things in our life. Nobody said it would be easy, and when we seem to have a dark stormcloud over our heads, everything seems impossible. We owe it to ourselves to take that first step and start working on getting things to be better."
+    },
+    {
+      "id": "4",
+      "title": "my 4th post",
+      "datetime": "Feb 07, 2025 7:59:01 PM",
+      "body": "The frustration barrier doesn’t just make learning more difficult, it also cuts you off from new life experiences. When you face the barrier repeatedly in one area of skill, you may confess to yourself that you are simply not born with the talents necessary to be successful in that area. "
+    }
+  ]
+}
