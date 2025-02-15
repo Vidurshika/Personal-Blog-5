@@ -12,3 +12,6 @@
 ➽ navigate()=React Router hook, and hooks cannot be used outside of components.therefore it can not be used in a func in STORE.
 
 ➽ store={store} in index , means it tells to consider the states and actions in store.js as STORE
+
+🔺🔴 PERSONAL- BLOG 5  is different from 4 as 4 used DATACONTEXT and in 5; Redux is used .
+Therefore the DataContext file is removed in 5 🔺🔴
