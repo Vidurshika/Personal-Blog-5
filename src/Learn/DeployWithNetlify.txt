@@ -1,0 +1,6 @@
+➽ 1st go to Netlify.com and access github -> then selecr git hub repo -> 
+  change configuration table displaed by Netlify ->
+  then click deploy-> then will receive a http link to open the App
+
+🔴 Very important that App must have a Local Storage  (???)
+   
