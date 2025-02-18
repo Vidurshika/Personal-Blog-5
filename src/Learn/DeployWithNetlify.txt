@@ -2,6 +2,9 @@
   change configuration table displaed by Netlify ->
   then click deploy-> then will receive a http link to open the App
 
+♦️below App has used a Local store , soit is a static web.
+♦️a dynamic web has a backend logic and deploying it is different 
+
 🔴 Very important that App must have a Local Storage  (???)
    
    like this.....
