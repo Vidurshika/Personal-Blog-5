@@ -39,8 +39,8 @@
 ⦿ TO add axios=npm i axios -S and run npx json-server -p 3500 -w data/db.json to get an endpoint
 
 
-⦿ for fetching==> option1.hardcoded array
-                         2.fetch function
-                         3.Axios
+⦿ for fetching==> option 1.hardcoded array
+                          2.fetch function- apiRequest will create actual api
+                          3.Axios - axios will create api call..no need for us to code the call
 
 ⦿ Hooks-npm i react-icons
